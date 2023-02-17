@@ -1,0 +1,22 @@
+body{
+    background-color: lightgrey;
+}
+form{
+    border-radius: 3px solid blue;
+    width: 350px;
+    height: auto;
+    background-color: rgb(150, 0, 0);
+    border: 3px solid black;
+}
+label{
+    font-family: cursive;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+}
+input{
+    color: black;
+    font-size: 15px;
+    font-family: cursive;
+    padding: 10px;
+}
