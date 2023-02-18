@@ -23,6 +23,7 @@ h2{
     color: white;
     background-color: black;
     border-radius: 400px;
+    margin-left: 10px;
 }
 p{
     color: white;
@@ -30,6 +31,7 @@ p{
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
     text-indent: 20px;
+    margin-left: 10px;
 }
 
 <!--contenedor y row de la pagina,
