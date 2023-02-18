@@ -28,7 +28,8 @@ p{
     color: white;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+    text-align: justify;
+    text-indent: 20px;
 }
 
 <!--contenedor y row de la pagina,
@@ -40,10 +41,14 @@ p{
     margin-left: auto;
     margin-right: auto;
 }
-.row { /* Agregar un margen superior e inferior a todas las filas */
+.row{ /* Agregar un margen superior e inferior a todas las filas */
     margin-top: 10px;
     margin-bottom: 10px;
-  }
+    display: flex;
+}
+.col{
+    display: inline;
+}
 
 <!--estilo de la lista de servicios en inicio,
 .col-1{
@@ -68,11 +73,12 @@ ul,li{
 }
 
 .logo{
-    float: right; 
-    width: 170px; 
-    height: 115px; 
+    margin-right: auto;
+    margin-left: auto;
+    margin: auto;
+    width: 300px; 
+    height: 200px; 
     top: 0; 
-    border: 3px solid black;
 }
 
 video{
@@ -97,4 +103,13 @@ padding: 5px;
 }
 tr {
 background-color: #f2f2f2;
+}
+button{
+    font-size: 20px;
+}
+button:hover{
+    font-size: 22px;
+    background-color: wheat;
+    border-radius: 4px;
+    cursor: pointer;
 }
